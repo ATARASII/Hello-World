@@ -1,0 +1,18 @@
+
+x=int(input('input a number: '))
+y=int(input('input a number: '))
+z=int(input('input a number: '))
+int a #This is an intermediate variable
+if x<y:
+	a=x
+	x=y
+	y=a
+if x<z
+   a=x
+	x=z
+	y=a
+if y<z
+   a=y
+	y=z
+	z=a
+print(x,y,z)
